@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_RecipeList">
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <SearchView
+                android:id="@+id/recipelist_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:clickable="true"
+                android:background="@drawable/searchbar_custom"
+                android:focusable="true" />
+    </LinearLayout>
+    -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recipelist_recycleView_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        tools:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvNoRecordsAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="No records Available!!!"
+        android:visibility="visible"
+        android:textSize="20sp" />
+</LinearLayout>

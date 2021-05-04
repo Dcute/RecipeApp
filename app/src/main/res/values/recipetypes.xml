@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="recipe_types">Recipe</string>
+    <string-array name="recipe">
+        <item>Burger</item>
+        <item>Fish</item>
+        <item>Breakfast</item>
+        <item>Juice</item>
+        <item>Pizza</item>
+        <item>Cake</item>
+        <item>Meat</item>
+        <item>Bread</item>
+        <item>Seafood</item>
+        <item>Western</item>
+        <item>Dessert</item>
+        <item>Barbeque</item>
+        <item>Croissant</item>
+    </string-array>
+</resources>
